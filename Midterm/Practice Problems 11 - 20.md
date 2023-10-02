@@ -98,7 +98,7 @@ else
 ```
 ### Question 20 
 <pre>
-This program has an issue because it only covers half of the number line so the boolean 'adult' wont have a value if the input is on the other half of the number line 
+This program has an issue because it only covers half of the number line so the boolean 'adult' wont have a value if the input is on the other half of the number line <br>
         false              ???? <br>
 <------------------|-------------------> <br>
                   21 <br>
