@@ -26,9 +26,10 @@ H
 </pre>
 ### Question 15 
 <pre>
-One. // Short circuts at b1 <br>
+One. // Short circuts at b1 
 Three. // Doesn't short circut
 Five. // Doesn't short circut
+Six. // Short circuts at !b2, and then it doesn't short cirut
 </pre>
 ### Question 16 
 <pre>
@@ -122,6 +123,37 @@ import java.util.Scanner;
             adult = true;
          }
          System.out.println(adult);
+      }
+   }
+```
+### Question 21
+<pre>
+    "-1"     "0"   "1" 
+<-----|----[-----]----->
+     -1    0     1
+This can be simplified by removing the default clause, simplifying the first 'else if' statment to (n <= 1), and changing the second 'else if' statment to the default clause
+</pre>
+```java
+import java.util.Scanner;
+   public class Program20
+   {
+      public static void main(String[] args)
+      {
+         Scanner in = new Scanner(System.in);
+         double n = in.nextDouble();
+
+         if (n < 0)
+         {
+            System.out.println( -1 );
+         }
+         else if (n <= 1)
+         {
+            System.out.println( 0 );
+         }
+         else // (n > 1)
+         {
+            System.out.println( 1 );
+         }
       }
    }
 ```
