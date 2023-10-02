@@ -83,11 +83,11 @@ else if (n <= 20)
 {
     System.out.println("banana");
 }
-else if (n < 30)
+else if (n <= 30)
 {
     System.out.println("grape");
 }
-else if (n < 40)
+else if (n <= 40)
 {
     System.out.println("pear");
 }
@@ -98,5 +98,5 @@ else
 ```
 ### Question 20 
 <pre>
-
+This 
 </pre>
