@@ -8,11 +8,11 @@ if v is greater than 0 then it will add one to w <br>
 ### Question 12 
 <pre>
 0 or 1 <br>
-Because it uses an else if it will only ever execute one of the clauses 
+Because it uses an else-if statement, it will only ever execute one of the clauses 
 </pre>
 ### Question 13 
 ```java
-if (p < 0) {System.out.println("pis negative");}
+if (p < 0) {System.out.println("p is negative");}
 else if (p > 0) {System.out.println("p is posotive");}
 else {System.out.println("p is zero");}
 ```
