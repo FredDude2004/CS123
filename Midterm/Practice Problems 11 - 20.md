@@ -98,5 +98,30 @@ else
 ```
 ### Question 20 
 <pre>
-This 
+This program has an issue because it only covers half of the number line so the boolean 'adult' wont have a value if the input is on the other half of the number line <br>
+        false              ???? <br>
+<------------------|-------------------> <br>
+                  21 <br>
+To fix this you would just need to add an else clause
 </pre>
+```java
+import java.util.Scanner;
+   public class Program19
+   {
+      public static void main(String[] args)
+      {
+         Scanner in = new Scanner(System.in);
+         int age = in.nextInt();
+         boolean adult;
+         if (age < 21)
+         {
+            adult = false;
+         }
+         else
+         {
+            adult = true;
+         }
+         System.out.println(adult);
+      }
+   }
+```
