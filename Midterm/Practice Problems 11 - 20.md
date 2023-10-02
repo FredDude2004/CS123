@@ -71,15 +71,30 @@ else
 ### Question 19 
 <pre>
     apple     banana       grape      pear      plum
-<----------]-----------]----------[----------[---------->
+<----------]-----------]----------]----------]---------->
  0        10          20         30         40        50 
 </pre>
 ```java
-if (n <= 10){System.out.println("apple");}
-else if (n <= 20){System.out.println("banana");}
-else if (n < 30){System.out.println("grape");}
-else if (n < 40){System.out.println("pear");}
-else {System.out.println("plum");}
+if (n <= 10)
+{
+    System.out.println("apple");
+}
+else if (n <= 20)
+{
+    System.out.println("banana");
+}
+else if (n < 30)
+{
+    System.out.println("grape");
+}
+else if (n < 40)
+{
+    System.out.println("pear");
+}
+else 
+{
+    System.out.println("plum");
+}
 ```
 ### Question 20 
 <pre>
