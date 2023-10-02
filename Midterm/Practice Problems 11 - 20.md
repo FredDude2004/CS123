@@ -32,13 +32,29 @@ Five. // Doesn't short circut
 </pre>
 ### Question 16 
 <pre>
-
+They tried to write the if clause like algebra, which won't compile 
+you need to write it using Boolean Logic <br>
+</pre>
+```java
+if (x >= 5 && x <= 5)
+{
+    System.out.println("x is between 0 and 5");
+}
+```
+<pre>
+This fixes the error
 </pre>
 ### Question 17 
 <pre>
 if (<font color="#00FF00">x && y</font> == <font color="red">0</font>)
-<font color="#00FF00">x and y</font> are booleans, which are true or false. You can't compare booleans to an <font color="red">integer</font>
+<font color="#00FF00">x and y</font> are booleans, which are true or false. You can't compare booleans to an <font color="red">integer</font> 
 </pre>
+```java
+if (x == 0 && y == 0)
+{
+    System.out.println("x and y are both zero");
+}
+```
 ### Question 18 
 <pre>
 
