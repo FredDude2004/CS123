@@ -53,7 +53,7 @@ String pn2 = "(" + pn.substring(0,3) + ") " + pn.substring(3,6) + "-" + pn.subst
 </pre>
 ### Question 8 
 <pre>
-String d2 = d.replace('.','-');
+String d2 = d.substring(3,5) + "-" + d.substring(0,2) + "-" + d.substring(6)
 </pre>
 ### Question 9 
 <pre>
