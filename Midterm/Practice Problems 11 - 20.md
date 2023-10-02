@@ -57,12 +57,30 @@ if (x == 0 && y == 0)
 ```
 ### Question 18 
 <pre>
-
+This program prints "x and y are both zero" if they both equal 0, and it prints "x and y are not equal if they are not equal <br>
 </pre>
+```java
+if (x == y)
+{
+    if (x == 0)
+        System.out.println("x and y are both zero");
+}
+else 
+    System.out.println("x and y are not equal");
+```
 ### Question 19 
 <pre>
-
+    apple     banana       grape      pear      plum
+<----------]-----------]----------[----------[---------->
+ 0        10          20         30         40        50 
 </pre>
+```java
+if (n <= 10){System.out.println("apple");}
+else if (n <= 20){System.out.println("banana");}
+else if (n < 30){System.out.println("grape");}
+else if (n < 40){System.out.println("pear");}
+else {System.out.println("plum");}
+```
 ### Question 20 
 <pre>
 
