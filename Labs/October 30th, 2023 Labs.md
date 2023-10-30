@@ -179,7 +179,7 @@ public class Main
       }
       System.out.println();
       
-      // Top half
+      // Top half of hour glass
       for (int i = 1; i <= size; i++)
       {
          System.out.print("|");
@@ -206,7 +206,7 @@ public class Main
          System.out.println("|");
       }
       
-       // Bottom half
+       // Bottom half of hour glass
        for (int i = size; i >= 1; i--)
        {
          System.out.print("|");
