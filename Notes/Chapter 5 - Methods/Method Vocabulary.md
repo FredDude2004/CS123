@@ -1,5 +1,5 @@
 # Methods
-There are words that we use when decribing methods that we have to understand. 
+There are words that we use when describing methods that we have to understand. 
 
 ### <b>Method Definition:</b>
  Just like in math we need to define a method, or in math we call it a 'function'.
