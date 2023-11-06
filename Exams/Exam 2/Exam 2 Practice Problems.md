@@ -152,12 +152,12 @@ public class RectangleTriangle {
 ```
 
 ## Problem 8 
-
+<pre>
 0 1 0 1 0
 1 0 1 0 1
 0 1 0 1 0
 1 0 1 0 1 
-
+</pre>
 ## Problem 9
 
 bro idk
