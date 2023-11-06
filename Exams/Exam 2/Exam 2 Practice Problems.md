@@ -153,3 +153,123 @@ public class RectangleTriangle {
 
 ## Problem 8 
 
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1 
+
+## Problem 9
+
+bro idk
+
+## Problem 10
+
+```java
+public static void main(String[] args)
+{
+    methodC();
+    for (int i = 0; i < 14; i++)
+    {
+        methodA();
+        System.out.print("-");
+    }
+    methodB();
+
+}
+   ```
+
+## Problem 11
+```java 
+public static int max2(int a, int b) 
+{
+    if (a >= b)
+    {
+        return a;
+    }
+    else
+    {
+        return b;
+    }
+}
+```
+
+## Problem 12
+```java
+public static double min2(double a, double b)
+{
+    double result;
+    if (a - b < 0)
+    {
+        result = a;
+    }
+    else
+    {
+        result = b;
+    }
+    return result;
+}
+```
+
+## Problem 13
+It removes the spaces
+
+```java
+"what the fish";
+"whatthefish";
+"This Is A Sentence";
+"ThisIsASentence";
+```
+
+## Problem 14 
+```java
+public static boolean closeEnough(double a, int b)
+{
+    if (b - 1.0 <= a && a <= b + 1.0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+```
+
+## Problem 15 
+```java
+public static void linePrint(int size)
+{
+    System.out.print("*");
+    for (int i = 1; i < size; i++)
+    {
+        System.out.print("&");
+    }
+    System.out.print("=");
+}
+```
+
+## Problem 16
+it doesn't have a return statement for if the person is not a millionire. 
+
+```java
+public static boolean isMillionaire(int netWorth)
+{
+    if (netWorth >= 1000000)
+    {
+        return ture;
+    }
+    else 
+    {
+        return false;
+    }
+}
+```
+This should fix the problem
+
+## Problem 17
+```java
+public static boolean isInside(int n)
+{
+    return (0 < n && n < 100);
+}
+```
