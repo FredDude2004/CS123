@@ -90,6 +90,21 @@ for (int i = 0; i <= s1.length(); i++) {
     System.out.println();
 } 
 ```
+Or
+```java
+for (int row = 0; r < 7; row++)
+{
+    for (int i = 0; i < 7 - row; i++)
+    {
+        System.out.print(" ");
+    }
+    for (int j = 0; j < row; j++)
+    {
+        System.out.print(7 - row);
+    }
+    System.out.println();
+}
+```
 
 ## Problem 6
 
@@ -158,6 +173,7 @@ public class RectangleTriangle {
 0 1 0 1 0
 1 0 1 0 1 
 </pre>
+
 ## Problem 9
 
 bro idk
