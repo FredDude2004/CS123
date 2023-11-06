@@ -129,6 +129,25 @@ public class FencePosts
     }
 }
 ```
+Or
+```java
+int size = 8;
+
+System.out.print("|");
+for (int i = 0; i < size; i++)
+{
+    System.out.print("/\\|");
+}
+System.out.println();
+```
+Or
+```java
+for (int i = 0; i < size; i++)
+{
+    System.out.print("|/\\");
+}
+System.out.println("|");
+```
 
 ## Problem 7
 
